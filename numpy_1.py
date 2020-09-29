@@ -21,3 +21,11 @@ print(ones, end="\n \n")
 #Identity Matrix
 i = np.eye(6)
 print(i, end="\n \n")
+#Evenly spaced points with linspace
+my_linspace = np.linspace(1,10,12)
+print(my_linspace, end="\n \n")
+#Random numbers in a uniform distribution
+uniform = np.random.rand(10)
+print(uniform)
+uniform2 = np.random.rand(2,3)
+print(uniform2)
